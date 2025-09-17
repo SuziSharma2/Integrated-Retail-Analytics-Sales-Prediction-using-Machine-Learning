@@ -1,0 +1,44 @@
+{
+  "problem_statement": "Predict sales_amount (weekly sales) for store-level demand forecasting to improve inventory, promotions, and staffing.",
+  "cv_results": {
+    "LinearRegression": {
+      "rmse_mean": 1.2164473211033842e-10,
+      "rmse_std": 4.323262931898047e-11
+    },
+    "RandomForest": {
+      "rmse_mean": 375.19552827348383,
+      "rmse_std": 266.45209573504735
+    },
+    "GradientBoosting": {
+      "rmse_mean": 286.32880624635226,
+      "rmse_std": 42.972468322016034
+    }
+  },
+  "gridsearch_rf_best": {
+    "model__max_depth": null,
+    "model__n_estimators": 100
+  },
+  "gridsearch_gb_best": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 200
+  },
+  "eval_results": {
+    "LinearRegression": {
+      "rmse": 1.0968528549748907e-10,
+      "mae": 7.357296658692981e-11,
+      "r2": 1.0
+    },
+    "RandomForest": {
+      "rmse": 49.27198023911887,
+      "mae": 1.0318223509737485,
+      "r2": 0.9999953444619742
+    },
+    "GradientBoosting": {
+      "rmse": 119.54757074143764,
+      "mae": 64.57750867866602,
+      "r2": 0.999972593640173
+    }
+  },
+  "best_model": "LinearRegression"
+}

@@ -1,0 +1,14 @@
+{
+  "LinearRegression": {
+    "rmse_mean": 1.2164473211033842e-10,
+    "rmse_std": 4.323262931898047e-11
+  },
+  "RandomForest": {
+    "rmse_mean": 375.19552827348383,
+    "rmse_std": 266.45209573504735
+  },
+  "GradientBoosting": {
+    "rmse_mean": 286.32880624635226,
+    "rmse_std": 42.972468322016034
+  }
+}
